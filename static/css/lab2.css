@@ -1,0 +1,12 @@
+#backspace{text-align:right;
+}
+h2{ position:relative;
+left:1%;
+}
+#directions{float:left; 
+position:absolute;
+top:10px;
+left:1%;
+}
+.fade-element{ background: rgba(255,255,255,.1);}
+.unfade-element{background: rgba(28,29,38,1);}

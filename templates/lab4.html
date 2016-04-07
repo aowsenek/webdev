@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" href="../static/css/main.css" />
+		<link rel="stylesheet" href="../static/css/lab4.css"/>
+		<title>Lab</title>
+		<script src="../static/js/lab4.js"/></script>
+		<script src="../static/php/lab4.php"/></script>
+	</head>	
+<body>
+<div class="inputs" id="input">
+	<input  onkeyup="ajaxcall()" type="text" id="first" placeholder="First Letter">
+	<input  onkeyup="ajaxcall()" type="text" id="first" placeholder="Last Letter">
+	<input  onkeyup="ajaxcall()" type="text" id="first" placeholder="Available Letters">
+	<input  onkeyup="ajaxcall()" type="text" id="first" placeholder="Nth Letter">
+	<legend>N:</legend>
+	<select  onchange="ajaxcall()" type="int" id="nth">
+		<option>1</option>	
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+		<option>6</option>
+		<option>7</option>
+		<option>8</option>
+		<option>9</option>
+		<option>10</option>
+		<option>11</option>
+		<option>12</option>
+	</select>
+	<legend>Number of Letters:</legend>
+	<select onchange="ajaxcall()" type="int" id="letters">
+		<option>1</option>	
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+		<option>6</option>
+		<option>7</option>
+		<option>8</option>
+		<option>9</option>
+		<option>10</option>
+		<option>11</option>
+		<option>12</option>
+	</select>
+	<legend>Number of Vowels:</legend>
+	<select  onchange="ajaxcall()" type="int" id="vowels">
+		<option>1</option>	
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+		<option>6</option>
+		<option>7</option>
+		<option>8</option>
+	</select>
+</select>
+</div>
+<div id="results" class="results">
+</div>
+</body>
+</html>

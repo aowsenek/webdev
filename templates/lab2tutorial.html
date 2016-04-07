@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style type="text/css">
+div{
+border:solid 1px;
+       background-color: blue;
+padding:3px;
+margin: 12px;
+}
+.background{
+background-color: red;
+}
+</style>
+<script type="text/javascript">
+function makeRed(event){
+	console.log(event.target);
+	event.target.style.color="000000";
+}
+</script>
+</head>
+<body onclick="makeRed(event)">
+<div class="background">
+<div> yay </div>
+<div> I did </div>
+<div> a thing </div>
+</div>
+</body>
+</html>
