@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" href="../static/css/main.css" />
+		<link rel="stylesheet" href="../static/css/lab3.css"/>
+		<title>Lab</title>
+		<script src="../static/js/lab3.js"/></script>
+		<h2> Has Your Identity Been Stolen? </h2>
+	</head>	
+<body>
+<h3> Enter your information here to check if dangerous haxx0rs have stolen your identity! </h3>
+<form>
+<div class="right">
+<fieldset>
+<legend>Basic Info<span class="red">*</span>:</legend>
+<input type="text" placeholder="Name" autofocus name="name" required><br>
+<input type="email" placeholder="Email" name="email"required><br>
+<input type="password" placeholder="Password" name="password" required><br>
+<input type="text" placeholder="SSN" name="ssn" required><br>
+<input type="text" placeholder="Zip" name="zip" required><br>
+</fieldset>
+</div>
+<div class="left"> 
+<form action="demo_form.asp">
+<input type="radio" name="ddvfl" id="dd" value="dd" onclick="dropdown1()">
+<label for="dd">Dropdown</label> <br>
+<input type="radio" name="ddvfl" id="fl" value="fl" onclick="fulllist1()">
+<label for="fl">Full List</label><br>
+</form>
+<div id="dropdowndiv">
+</div>
+<div id="dropdowndiv2">
+</div>
+<input type="submit" value="Submit">
+</div>
+</form>
+</body>
+</html>

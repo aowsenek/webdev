@@ -9,12 +9,13 @@
 	</head>	
 <body>
 <div class="inputs" id="input">
-	<input  onkeyup="ajaxcall()" type="text" id="first" placeholder="First Letter">
-	<input  onkeyup="ajaxcall()" type="text" id="first" placeholder="Last Letter">
-	<input  onkeyup="ajaxcall()" type="text" id="first" placeholder="Available Letters">
-	<input  onkeyup="ajaxcall()" type="text" id="first" placeholder="Nth Letter">
+	<input  type="text" id="first" placeholder="First Letter">
+	<input  type="text" id="last" placeholder="Last Letter">
+	<input  type="text" id="avail" placeholder="Available Letters">
+	<input  type="text" id="nth" placeholder="Nth Letter">
 	<legend>N:</legend>
-	<select  onchange="ajaxcall()" type="int" id="nth">
+	<select type="int" id="n">
+		<option></option>
 		<option>1</option>	
 		<option>2</option>
 		<option>3</option>
@@ -29,7 +30,8 @@
 		<option>12</option>
 	</select>
 	<legend>Number of Letters:</legend>
-	<select onchange="ajaxcall()" type="int" id="letters">
+	<select type="int" id="letters">
+		<option></option>
 		<option>1</option>	
 		<option>2</option>
 		<option>3</option>
@@ -44,7 +46,8 @@
 		<option>12</option>
 	</select>
 	<legend>Number of Vowels:</legend>
-	<select  onchange="ajaxcall()" type="int" id="vowels">
+	<select type="int" id="vowels">
+		<option></option>
 		<option>1</option>	
 		<option>2</option>
 		<option>3</option>
@@ -54,7 +57,7 @@
 		<option>7</option>
 		<option>8</option>
 	</select>
-</select>
+	<a class="button" onclick="ajaxcall()">Submit</a>
 </div>
 <div id="results" class="results">
 </div>
